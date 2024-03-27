@@ -1,4 +1,4 @@
-FROM tomcat:latest
+FROM tomcat:8.5.72
 
 
 
@@ -22,7 +22,7 @@ COPY src/main/webapp/WEB-INF/web.xml /usr/local/tomcat/webapps/ROOT
 
 # Expose the Tomcat port
 
-EXPOSE 9696
+EXPOSE 9898
 
 
 
